@@ -7,8 +7,9 @@ public class StringCompression {
      * @return the compressed string
      */
     public String compressString(String input) {
-        // TODO: Implement this method
 
+        // TODO: Delete the line below and replace it with your own implementation.
         throw new RuntimeException("Not implemented");
+        
     }
 }
