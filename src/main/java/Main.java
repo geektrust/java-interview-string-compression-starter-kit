@@ -2,9 +2,9 @@
 public class Main {
 
     /* Implement your solution inside this method. */
-    public String compressString(String input) {
+    public int compressString(String s, int k) {
         // WRITE YOUR CODE HERE.
-
+        return 0
     }
 
 
@@ -18,8 +18,8 @@ public class Main {
      * our system.
      */
     public static void main(String[] args) {
-        String input = args[0];
-        String out = new Main().compressString(input);
-        System.out.println(out);
+        String str = args[0];
+        int k = Integer.parseInt(args[1]);
+        System.out.println(compressString(str,k));
     }
 }
