@@ -4,7 +4,7 @@ public class Main {
     /* Implement your solution inside this method. */
     public static int compressString(String s, int k) {
         // WRITE YOUR CODE HERE.
-        return 0
+        return -1;
     }
 
 
@@ -18,8 +18,9 @@ public class Main {
      * our system.
      */
     public static void main(String[] args) {
-        String str = args[0];
-        int k = Integer.parseInt(args[1]);
+        String[] input = args[0].split("\\|");
+        String str = input[0].trim();
+        int k = Integer.parseInt(input[1].trim());
         System.out.println(compressString(str,k));
     }
 }
