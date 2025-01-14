@@ -2,7 +2,7 @@
 public class Main {
 
     /* Implement your solution inside this method. */
-    public int compressString(String s, int k) {
+    public static int compressString(String s, int k) {
         // WRITE YOUR CODE HERE.
         return 0
     }
