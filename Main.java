@@ -1,14 +1,5 @@
 
 public class Main {
-
-    /* Implement your solution inside this method. */
-    public static int compressString(String s, int k) {
-        // WRITE YOUR CODE HERE.
-        return -1;
-    }
-
-
-
     /*
      * *****************************************************************************
      * DO NOT EDIT THIS CODE.
@@ -21,6 +12,7 @@ public class Main {
         String[] input = args[0].split("\\|");
         String str = input[0].trim();
         int k = Integer.parseInt(input[1].trim());
-        System.out.println(compressString(str,k));
+        int output = new Solution().compressString(str, k);
+        System.out.println(output);
     }
 }
